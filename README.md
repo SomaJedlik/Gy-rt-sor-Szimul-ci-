@@ -39,8 +39,9 @@ menü:    Infó, Fejlesztés, Rendelések, Feladatok, Random eventek, Számítá
     Számítások: Ellenőrzés, van-e elég pénz, munkás, gép
 
 
-    
+Gépmeghibásodás,    Betegség
 
+Random eventek: Nap elemek( gépek karbantartása olcsóbb)
 
 
 
