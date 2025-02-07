@@ -45,3 +45,5 @@ menü:    Infó, Fejlesztés, Rendelések, Feladatok, Random eventek, Számítá
 Gépmeghibásodás,    Betegség
 
 Random eventek: Nap elemek( gépek karbantartása olcsóbb), Hirtelen rendelés(Nincs idő gyártára, +bevétel)
+
+
