@@ -28,4 +28,20 @@ Alapanyag:    Ár
               Mennyiség
               
 
-Termékek: 
+Termékek:     
+
+
+menü:    Infó, Fejlesztés, Rendelések, Feladatok, Random eventek, Számítások, Start
+    Fejlesztés: Gépek vásárlása, Munkások felbérlése
+    Rendelések: rendelés felvétel
+    Feladatok: Termékek termelésének megadása
+    Random eventek: Lehetnek külömböző bonuszok
+    Számítások: Ellenőrzés, van-e elég pénz, munkás, gép
+
+
+    
+
+
+
+
+
