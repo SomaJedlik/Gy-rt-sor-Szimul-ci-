@@ -18,7 +18,6 @@ Munkás:        Név
                Fizetés
 
 Gép:           Ár
-               Hiba
                Munkás
                Idő/termék
                Javítási költség
