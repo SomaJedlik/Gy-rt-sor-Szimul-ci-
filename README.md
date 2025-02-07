@@ -16,8 +16,10 @@ Termék:        Név
 
 Munkás:        Név
                Fizetés
+               Betegség
 
-Gép:           Ár
+Gép:           Név
+               Ár
                Munkás
                Idő/termék
                Javítási költség
@@ -27,7 +29,9 @@ Alapanyag:    Ár
               Mennyiség
               
 
-Termékek:     
+Termékek:
+Gépek:
+
 
 
 menü:    Infó, Fejlesztés, Rendelések, Feladatok, Random eventek, Számítások, Start
@@ -40,8 +44,4 @@ menü:    Infó, Fejlesztés, Rendelések, Feladatok, Random eventek, Számítá
 
 Gépmeghibásodás,    Betegség
 
-Random eventek: Nap elemek( gépek karbantartása olcsóbb)
-
-
-
-
+Random eventek: Nap elemek( gépek karbantartása olcsóbb), Hirtelen rendelés(Nincs idő gyártára, +bevétel)
