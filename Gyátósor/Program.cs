@@ -126,6 +126,8 @@ namespace Gyártósor
                     case 0:
                         Console.WriteLine("Hi");
                             break;
+                    case 1: Console.WriteLine("bye");
+                        break;
                 }
             }
 
