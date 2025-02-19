@@ -14,6 +14,7 @@ namespace Gyártósor
         public int Termelés { get; set; }
         public int Javítás { get; set; }
         public int Karbantartás { get; set; }
+        public int mennysiség {  get; set; }
 
 
         public void gép(string név, int ár, int termelés, int karbantartás)

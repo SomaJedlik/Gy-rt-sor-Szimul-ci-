@@ -14,4 +14,7 @@ namespace Gyártósor
         public int Beteg {  get; set; }
         public string Hozzáértés { get; set; }
     }
+
+    
+
 }

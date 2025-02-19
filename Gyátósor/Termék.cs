@@ -15,6 +15,7 @@ namespace Gyártósor
         public int Ár { get; set; }
 
         public Gép eszközök { get; set; }
+        public int Mennyiség {  get; set; }
 
         public void termék(string név, int ár)
         {

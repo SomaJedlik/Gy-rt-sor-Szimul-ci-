@@ -11,6 +11,7 @@ namespace Gyártósor
         public int Pénz { get; set; }
         public List<Gép> Gépek = new List<Gép> { };
         public List<Munkás> Munkások = new List<Munkás> { };
+        public bool fut = true;
 
 
 
@@ -18,9 +19,11 @@ namespace Gyártósor
         {
             Pénz=pénz;
         }
-        public void Hiring(Munkás munk)
-        {
-            Munkások.Add(munk);
-        }
+
+
+
+
+
+
     }
 }
