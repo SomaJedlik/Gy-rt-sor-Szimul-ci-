@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+        
 namespace Gyártósor
-{
+{       
     internal class Alapanyag
-    {
+    {   
         public string Név;
         public int Ár {  get; set; }
         public int Mennyiség {  get; set; }
@@ -18,5 +18,7 @@ namespace Gyártósor
             Ár=ár;
             Mennyiség=mennyiség;
         }
-    }
-}
+
+        
+    }   
+}       
