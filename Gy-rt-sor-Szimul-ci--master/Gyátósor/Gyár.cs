@@ -555,12 +555,7 @@ namespace Gyártósor
 
         public void Start(Gyár gyár, Alapanyag olcsóAlapanyag, Alapanyag drágaAlapanyag, Alapanyag csúnyaAlalpanyag, Alapanyag újrahasznósítottAlapanyag, Alapanyag veszélyesAlapanyag, Alapanyag titokzatosEredetűAlapanyag, Rendelés rendelés1, Rendelés rendelés2, Rendelés rendelés3, Gép hangos, Gép egyszerű, Gép csúnya)
         {
-            drágaAlapanyag.szükséges = 0;
-            olcsóAlapanyag.szükséges = 0;
-            csúnyaAlalpanyag.szükséges = 0;
-            veszélyesAlapanyag.szükséges = 0;
-            újrahasznósítottAlapanyag.szükséges = 0;
-            titokzatosEredetűAlapanyag.szükséges = 0;
+            
             hangos.foglalt = 0;
             csúnya.foglalt = 0;
             egyszerű.foglalt = 0;
@@ -602,20 +597,35 @@ namespace Gyártósor
                 }
                 gyár.Pénz -= (hangos.Munkás.Foglalt * hangos.Munkás.Fizetés) + (csúnya.Munkás.Foglalt * csúnya.Munkás.Fizetés)+(hangos.foglalt*hangos.Karbantartás) + (csúnya.foglalt * csúnya.Karbantartás) + (egyszerű.foglalt * egyszerű.Karbantartás);
                 drágaAlapanyag.Mennyiség -= drágaAlapanyag.szükséges;
-                olcsóAlapanyag.Mennyiség -= olcsóAlapanyag.Mennyiség;
-                csúnyaAlalpanyag.Mennyiség -= csúnyaAlalpanyag.Mennyiség;
-                veszélyesAlapanyag.Mennyiség -= veszélyesAlapanyag.Mennyiség;
-                újrahasznósítottAlapanyag.Mennyiség -= újrahasznósítottAlapanyag.Mennyiség;
-                titokzatosEredetűAlapanyag.Mennyiség -= titokzatosEredetűAlapanyag.Mennyiség;
+                olcsóAlapanyag.Mennyiség -= olcsóAlapanyag.szükséges;
+                csúnyaAlalpanyag.Mennyiség -= csúnyaAlalpanyag.szükséges;
+                veszélyesAlapanyag.Mennyiség -= veszélyesAlapanyag.szükséges;
+                újrahasznósítottAlapanyag.Mennyiség -= újrahasznósítottAlapanyag.szükséges;
+                titokzatosEredetűAlapanyag.Mennyiség -= titokzatosEredetűAlapanyag.szükséges;
+
+                drágaAlapanyag.szükséges = 0;
+                olcsóAlapanyag.szükséges = 0;
+                csúnyaAlalpanyag.szükséges = 0;
+                veszélyesAlapanyag.szükséges = 0;
+                újrahasznósítottAlapanyag.szükséges = 0;
+                titokzatosEredetűAlapanyag.szükséges = 0;
 
                 gyár.RendelésGenerálás(rendelés1, gyár.TermékLista);
                 gyár.RendelésGenerálás(rendelés2, gyár.TermékLista);
                 gyár.RendelésGenerálás(rendelés3, gyár.TermékLista);
 
 
-
-
-
+                
+                for (int j=0; j<30; j++)
+                {
+                    
+                    Thread.Sleep(100);
+                    
+                    Console.Write("-");
+                    
+                        
+                }
+                Console.Clear();
 
             }
             else
@@ -639,6 +649,8 @@ namespace Gyártósor
                 {
                     Console.Write($"{item.Név} ");
                 }
+                Console.WriteLine("");
+                Console.WriteLine($"Gép: {rendelés1.vásárol.eszközök.Név}");
 
                 Console.WriteLine();
                 Console.WriteLine();
