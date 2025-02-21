@@ -1,0 +1,14 @@
+C:\Users\Bólya Soma\Downloads\Gy-rt-sor-Szimul-ci--master\Gyátósor\bin\Debug\net8.0\Gyártósor.exe
+C:\Users\Bólya Soma\Downloads\Gy-rt-sor-Szimul-ci--master\Gyátósor\bin\Debug\net8.0\Gyártósor.deps.json
+C:\Users\Bólya Soma\Downloads\Gy-rt-sor-Szimul-ci--master\Gyátósor\bin\Debug\net8.0\Gyártósor.runtimeconfig.json
+C:\Users\Bólya Soma\Downloads\Gy-rt-sor-Szimul-ci--master\Gyátósor\bin\Debug\net8.0\Gyártósor.dll
+C:\Users\Bólya Soma\Downloads\Gy-rt-sor-Szimul-ci--master\Gyátósor\bin\Debug\net8.0\Gyártósor.pdb
+C:\Users\Bólya Soma\Downloads\Gy-rt-sor-Szimul-ci--master\Gyátósor\obj\Debug\net8.0\Gyártósor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bólya Soma\Downloads\Gy-rt-sor-Szimul-ci--master\Gyátósor\obj\Debug\net8.0\Gyártósor.AssemblyInfoInputs.cache
+C:\Users\Bólya Soma\Downloads\Gy-rt-sor-Szimul-ci--master\Gyátósor\obj\Debug\net8.0\Gyártósor.AssemblyInfo.cs
+C:\Users\Bólya Soma\Downloads\Gy-rt-sor-Szimul-ci--master\Gyátósor\obj\Debug\net8.0\Gyártósor.csproj.CoreCompileInputs.cache
+C:\Users\Bólya Soma\Downloads\Gy-rt-sor-Szimul-ci--master\Gyátósor\obj\Debug\net8.0\Gyártósor.dll
+C:\Users\Bólya Soma\Downloads\Gy-rt-sor-Szimul-ci--master\Gyátósor\obj\Debug\net8.0\refint\Gyártósor.dll
+C:\Users\Bólya Soma\Downloads\Gy-rt-sor-Szimul-ci--master\Gyátósor\obj\Debug\net8.0\Gyártósor.pdb
+C:\Users\Bólya Soma\Downloads\Gy-rt-sor-Szimul-ci--master\Gyátósor\obj\Debug\net8.0\Gyártósor.genruntimeconfig.cache
+C:\Users\Bólya Soma\Downloads\Gy-rt-sor-Szimul-ci--master\Gyátósor\obj\Debug\net8.0\ref\Gyártósor.dll
